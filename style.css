@@ -1,0 +1,74 @@
+body{margin: 0 auto;
+    font-family: arial;
+    background-image: url(259.png) ;  
+
+
+}
+.navbar{
+    list-style: none;
+    border: 3px solid black;
+    display: flex;
+    margin:0px;
+   font-size: 2em;
+ background-color: #7C296A;
+}
+
+li{
+    padding: 20px;
+}
+.push{
+ margin-left: auto;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+em{
+    font-size: 3em;
+    font-style: fantasy;
+    text-decoration: uppercase;
+    align-items: center;
+    color: #0C0C0B;
+    box-shadow: 2px 3px 2px 3px;
+}
+.snack{ position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.container{
+    justify-content: center;
+    align-items: center;
+   }
+   img{
+    width: 100%
+   }
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+}
+.box{
+    background-color: #4444;
+    padding: 10px;
+    margin:20px;
+}
+.box>img{
+    height: 250px;
+    width:307px;
+ transition: all 0.3s linear;
+   cursor: pointer;
+
+
+}
+.box:hover{
+ -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+     background-color:#8A2C61;
+}
+ 
+
